@@ -33,3 +33,5 @@ Id,Version,Name,Label
 ## Dashboard demos
 
 - ![Dashboard demo](./demos/cars3-db-2.webm.gif)
+<hr/>
+- ![Dashboard demo 2](./demos/cars3-db.webm.gif)
