@@ -28,7 +28,9 @@ Id,Version,Name,Label
 
 
 ## Finding the highest selling Cars (benchmark) from the manufacturers
-- ![benchmark candidates](./demos/cars3-db-2.png)
+- ![benchmark candidates](./demos/cars3-db-1.png)
+
+- ![benchmark candidates](./demos/)
 
 ## Dashboard demos
 
