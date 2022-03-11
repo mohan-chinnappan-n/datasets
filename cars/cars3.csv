@@ -1,0 +1,158 @@
+id,Manufacturer,Model,Vehicle_type,Sales_in_thousands
+0,Acura,Integra,Passenger,16.919
+1,Acura,TL,Passenger,39.384
+2,Acura,CL,Passenger,14.114
+3,Acura,RL,Passenger,8.588
+4,Audi,A4,Passenger,20.397
+5,Audi,A6,Passenger,18.78
+6,Audi,A8,Passenger,1.38
+7,BMW,323i,Passenger,19.747
+8,BMW,328i,Passenger,9.231
+9,BMW,528i,Passenger,17.527
+10,Buick,Century,Passenger,91.561
+11,Buick,Regal,Passenger,39.35
+12,Buick,Park Avenue,Passenger,27.851
+13,Buick,LeSabre,Passenger,83.257
+14,Cadillac,DeVille,Passenger,63.729
+15,Cadillac,Seville,Passenger,15.943
+16,Cadillac,Eldorado,Passenger,6.536
+17,Cadillac,Catera,Passenger,11.185
+18,Cadillac,Escalade,Car,14.785
+19,Chevrolet,Cavalier,Passenger,145.519
+20,Chevrolet,Malibu,Passenger,135.126
+21,Chevrolet,Lumina,Passenger,24.629
+22,Chevrolet,Monte Carlo,Passenger,42.593
+23,Chevrolet,Camaro,Passenger,26.402
+24,Chevrolet,Corvette,Passenger,17.947
+25,Chevrolet,Prizm,Passenger,32.299
+26,Chevrolet,Metro,Passenger,21.855
+27,Chevrolet,Impala,Passenger,107.995
+28,Chrysler,Sebring Coupe,Passenger,7.854
+29,Chrysler,Sebring Conv.,Passenger,32.775
+30,Chrysler,Concorde,Passenger,31.148
+31,Chrysler,Cirrus,Passenger,32.306
+32,Chrysler,LHS,Passenger,13.462
+33,Chrysler,Town & Country,Car,53.48
+34,Chrysler,300M,Passenger,30.696
+35,Dodge,Neon,Passenger,76.034
+36,Dodge,Avenger,Passenger,4.734
+37,Dodge,Stratus,Passenger,71.186
+38,Dodge,Intrepid,Passenger,88.028
+39,Dodge,Viper,Passenger,0.916
+40,Dodge,Ram Pickup,Car,227.061
+41,Dodge,Ram Wagon,Car,16.767
+42,Dodge,Ram Van,Car,31.038
+43,Dodge,Dakota,Car,111.313
+44,Dodge,Durango,Car,101.323
+45,Dodge,Caravan,Car,181.749
+46,Ford,Escort,Passenger,70.227
+47,Ford,Mustang,Passenger,113.369
+48,Ford,Contour,Passenger,35.068
+49,Ford,Taurus,Passenger,245.815
+50,Ford,Focus,Passenger,175.67
+51,Ford,Crown Victoria,Passenger,63.403
+52,Ford,Explorer,Car,276.747
+53,Ford,Windstar,Car,155.787
+54,Ford,Expedition,Car,125.338
+55,Ford,Ranger,Car,220.65
+56,Ford,F-Series,Car,540.561
+57,Honda,Civic,Passenger,199.685
+58,Honda,Accord,Passenger,230.902
+59,Honda,CR-V,Car,73.203
+60,Honda,Passport,Car,12.855
+61,Honda,Odyssey,Car,76.029
+62,Hyundai,Accent,Passenger,41.184
+63,Hyundai,Elantra,Passenger,66.692
+64,Hyundai,Sonata,Passenger,29.45
+65,Infiniti,I30,Passenger,23.713
+66,Jaguar,S-Type,Passenger,15.467
+67,Jeep,Wrangler,Car,55.557
+68,Jeep,Cherokee,Car,80.556
+69,Jeep,Grand Cherokee,Car,157.04
+70,Lexus,ES300,Passenger,24.072
+71,Lexus,GS300,Passenger,12.698
+72,Lexus,GS400,Passenger,3.334
+73,Lexus,LS400,Passenger,6.375
+74,Lexus,LX470,Car,9.126
+75,Lexus,RX300,Car,51.238
+76,Lincoln,Continental,Passenger,13.798
+77,Lincoln,Town car,Passenger,48.911
+78,Lincoln,Navigator,Car,22.925
+79,Mitsubishi,Mirage,Passenger,26.232
+80,Mitsubishi,Eclipse,Passenger,42.541
+81,Mitsubishi,Galant,Passenger,55.616
+82,Mitsubishi,Diamante,Passenger,5.711
+83,Mitsubishi,3000GT,Passenger,0.11
+84,Mitsubishi,Montero,Car,11.337
+85,Mitsubishi,Montero Sport,Car,39.348
+86,Mercury,Mystique,Passenger,14.351
+87,Mercury,Cougar,Passenger,26.529
+88,Mercury,Sable,Passenger,67.956
+89,Mercury,Grand Marquis,Passenger,81.174
+90,Mercury,Mountaineer,Car,27.609
+91,Mercury,Villager,Car,20.38
+92,Mercedes-B,C-Class,Passenger,18.392
+93,Mercedes-B,E-Class,Passenger,27.602
+94,Mercedes-B,S-Class,Passenger,16.774
+95,Mercedes-B,SL-Class,Passenger,3.311
+96,Mercedes-B,SLK,Passenger,7.998
+97,Mercedes-B,SLK230,Passenger,1.526
+98,Mercedes-B,CLK Coupe,Passenger,11.592
+99,Mercedes-B,CL500,Passenger,0.954
+100,Mercedes-B,M-Class,Car,28.976
+101,Nissan,Sentra,Passenger,42.643
+102,Nissan,Altima,Passenger,88.094
+103,Nissan,Maxima,Passenger,79.853
+104,Nissan,Quest,Car,27.308
+105,Nissan,Pathfinder,Car,42.574
+106,Nissan,Xterra,Car,54.158
+107,Nissan,Frontier,Car,65.005
+108,Oldsmobile,Cutlass,Passenger,1.112
+109,Oldsmobile,Intrigue,Passenger,38.554
+110,Oldsmobile,Alero,Passenger,80.255
+111,Oldsmobile,Aurora,Passenger,14.69
+112,Oldsmobile,Bravada,Car,20.017
+113,Oldsmobile,Silhouette,Car,24.361
+114,Plymouth,Neon,Passenger,32.734
+115,Plymouth,Breeze,Passenger,5.24
+116,Plymouth,Voyager,Car,24.155
+117,Plymouth,Prowler,Passenger,1.872
+118,Pontiac,Sunfire,Passenger,51.645
+119,Pontiac,Grand Am,Passenger,131.097
+120,Pontiac,Firebird,Passenger,19.911
+121,Pontiac,Grand Prix,Passenger,92.364
+122,Pontiac,Bonneville,Passenger,35.945
+123,Pontiac,Montana,Car,39.572
+124,Porsche,Boxter,Passenger,8.982
+125,Porsche,Carrera Coupe,Passenger,1.28
+126,Porsche,Carrera Cabrio,Passenger,1.866
+127,Saab,5-Sep,Passenger,9.191
+128,Saab,3-Sep,Passenger,12.115
+129,Saturn,SL,Passenger,80.62
+130,Saturn,SC,Passenger,24.546
+131,Saturn,SW,Passenger,5.223
+132,Saturn,LW,Passenger,8.472
+133,Saturn,LS,Passenger,49.989
+134,Subaru,Outback,Passenger,47.107
+135,Subaru,Forester,Car,33.028
+136,Toyota,Corolla,Passenger,142.535
+137,Toyota,Camry,Passenger,247.994
+138,Toyota,Avalon,Passenger,63.849
+139,Toyota,Celica,Passenger,33.269
+140,Toyota,Tacoma,Car,84.087
+141,Toyota,Sienna,Car,65.119
+142,Toyota,RAV4,Car,25.106
+143,Toyota,4Runner,Car,68.411
+144,Toyota,Land Cruiser,Car,9.835
+145,Volkswagen,Golf,Passenger,9.761
+146,Volkswagen,Jetta,Passenger,83.721
+147,Volkswagen,Passat,Passenger,51.102
+148,Volkswagen,Cabrio,Passenger,9.569
+149,Volkswagen,GTI,Passenger,5.596
+150,Volkswagen,Beetle,Passenger,49.463
+151,Volvo,S40,Passenger,16.957
+152,Volvo,V40,Passenger,3.545
+153,Volvo,S70,Passenger,15.245
+154,Volvo,V70,Passenger,17.531
+155,Volvo,C70,Passenger,3.493
+156,Volvo,S80,Passenger,18.969
