@@ -1,0 +1,29 @@
+{
+    "action": "query",
+    "responseId": "SLB:b3d4acff26d6c532ad4c9913a5f48b34",
+    "results": {
+        "metadata": [
+            {
+                "lineage": {
+                    "type": "foreach",
+                    "projections": [
+                        {
+                            "field": {
+                                "id": "q.count",
+                                "type": "numeric"
+                            }
+                        }
+                    ]
+                },
+                "queryLanguage": "SAQL"
+            }
+        ],
+        "records": [
+            {
+                "count": 9
+            }
+        ]
+    },
+    "query": "q = load \"0Fb3h0000005Yz0CAE/0Fc3h000002umTfCAI\"; q = group q by all; q = foreach q generate count() as 'count'; q = limit q 2000;",
+    "responseTime": 1
+}

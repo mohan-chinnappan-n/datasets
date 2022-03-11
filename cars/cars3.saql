@@ -1,0 +1,3 @@
+q = load "cars3";
+q = foreach q generate 'Manufacturer' as 'Manufacturer', 'Model' as 'Model', 'Sales_in_thousands' as 'Sales_in_thousands', 'Vehicle_type' as 'Vehicle_type', 'id' as 'id';
+q = limit q 100;

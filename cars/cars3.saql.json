@@ -1,0 +1,3 @@
+{
+    "query":"q = load \"0Fb3h0000005Yz0CAE/0Fc3h000002umTfCAI\"; q = group q by all; q = foreach q generate count() as 'count'; q = limit q 2000;" 
+}
