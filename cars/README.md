@@ -1,7 +1,7 @@
 # Visualization experiments on Car Sales Data
 
 ## Steps
-- 1. [Data](./cars3.csv) is loaded into TCRM (Tableau CRM) 
+-  [Data](./cars3.csv) is loaded into TCRM (Tableau CRM) 
 ```
 
 # Login
@@ -12,7 +12,7 @@ sfdx mohanc:ea:dataset:load -u mohan.chinnappan.n_ea2@gmail.com -d cars3.csv
 
 ```
 
-- 2. Create Dashboard based on the created dataset **cars3**
+-  Create Dashboard based on the created dataset **cars3**
 ```
 sfdx mohanc:ea:dataset:list  -u mohan.chinnappan.n_ea2@gmail.com
 
