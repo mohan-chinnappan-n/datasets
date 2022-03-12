@@ -2,7 +2,7 @@
 
 ## Create user
 - Use License: Salesforce
-- Profile: **System Administrator**
+- Profile: correct profile here (example: **System Administrator**,
 - Make the user **Active**
 
 ## Add these Permission sets to the user
@@ -27,7 +27,7 @@
 
 - If you need to share TCRM assets
     - Move your assets from your private folder to shared folder
-    
+
 
 
 

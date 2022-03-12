@@ -27,6 +27,12 @@ Id,Version,Name,Label
 - [Dashboard json](./dashboard/Cars3DB.json)
 
 
+## Adding to Home page
+- ![adding dashboard to home page](./demos/cars3db-home-page.webm.gif)
+
+-----
+
+
 ## Finding the highest selling Cars (benchmark) from the manufacturers
 - ![benchmark candidates](./demos/cars3-db-0.png)
 - ![benchmark candidates](./demos/cars3-db-1.png)
