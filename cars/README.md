@@ -4,8 +4,12 @@
 -  [Data](./cars3.csv) is loaded into TCRM (Tableau CRM) 
 ```
 
-# Login
-sfdx force:auth:web:login
+# Login (sandbox)
+sfdx force:auth:web:login -r https://test.salesforce.com 
+
+# Login (prod)
+sfdx force:auth:web:login -r https://login.salesforce.com 
+
 
 # Load into dataset
 sfdx mohanc:ea:dataset:load -u mohan.chinnappan.n_ea2@gmail.com -d cars3.csv
