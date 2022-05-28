@@ -84,13 +84,13 @@ open https://mohansun-ea-02-dev-ed.my.salesforce.com/analytics/dataManager in a 
 ```
 
 ### Dataset yield2
-- [yield2 job](img/yield2-job-1.png)
+- ![yield2 job](img/yield2-job-1.png)
 
 ### Demo to show Security Predicate
 ```
 'user_name' == "$User.Name"
 ```
 
-- [Demo](img/security-predicate-example-1.webm.gif)
+- ![Demo](img/security-predicate-example-1.webm.gif)
 
 
