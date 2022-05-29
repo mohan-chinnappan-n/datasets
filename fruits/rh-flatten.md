@@ -98,3 +98,5 @@ sfdx mohanc:data:query -q ~/.soql/userRole.sql  -u  mohan.chinnappan.n_ea2@gmail
 ![flatten - recipe](img/userRole-flatten-1.webm.gif)
 
 
+## References
+- [flatten Transformation](https://help.salesforce.com/s/articleView?id=sf.bi_integrate_flatten_transformation.htm&type=5)
