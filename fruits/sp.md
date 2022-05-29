@@ -1,9 +1,14 @@
 # Security Predicate Simple Example
 
+
 ## Use case
 - Assume we like to create an external data based dataset  ```yield2``` created out of this csv file: yield2.csv
 - Restrict the logged in user can see only records with ```user_name``` as logged user name ```User.Name```
 - Use Security Predicate to implement this
+
+## Like to see about flatten transformation?
+
+- [See UserRole flatten transformation](./rh-flatten.md)
 
 
 ```
