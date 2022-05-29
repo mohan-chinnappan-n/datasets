@@ -104,3 +104,11 @@ q = load "yield2";
 q = foreach q generate 'friut' as 'fruit', 'qty' as 'qty', 'user_name' as 'user_name', "!{User.Name}" as UserName, "!{User.Id}" as UserId, 100*(qty/1000) as Share;
 q = limit q 100;
 ```
+
+
+## References
+- [Add Row-Level Security with a Security Predicate](https://help.salesforce.com/s/articleView?id=sf.bi_security_datasets_predicate_considerations.htm&type=5)
+
+- [flatten Transformation](https://help.salesforce.com/s/articleView?id=sf.bi_integrate_flatten_transformation.htm&type=5)
+
+
