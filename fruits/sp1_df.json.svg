@@ -1,0 +1,384 @@
+<svg width="6662pt" height="2489pt" viewBox="0.00 0.00 6662.00 2489.30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2485.3)">
+<title>EA DF</title>
+<polygon fill="#efeffd" stroke="transparent" points="-4,4 -4,-2485.3 6658,-2485.3 6658,4 -4,4"/>
+<text text-anchor="middle" x="6430.04" y="-6.7" font-family="Courier,monospace" font-size="9.00">EA Dataflow Viz - created by:  Ramanujan version 0.11 - Author: Mohan Chinnappan</text>
+<!-- Extract_Opportunity -->
+<g id="node1" class="node">
+<title>Extract_Opportunity</title>
+<polygon fill="#eee5de" stroke="transparent" points="3125,-1912.3 3125,-2121.3 3547,-2121.3 3547,-1912.3 3125,-1912.3"/>
+<polygon fill="#eee5de" stroke="transparent" points="3126,-2100.8 3126,-2119.8 3546,-2119.8 3546,-2100.8 3126,-2100.8"/>
+<polygon fill="none" stroke="#99ccff" points="3126,-2100.8 3126,-2119.8 3546,-2119.8 3546,-2100.8 3126,-2100.8"/>
+<text text-anchor="start" x="3230.42" y="-2107.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Extract_Opportunity - sfdcDigest</text>
+<polygon fill="#e66465" stroke="transparent" points="3126,-2081.8 3126,-2100.8 3409,-2100.8 3409,-2081.8 3126,-2081.8"/>
+<polygon fill="none" stroke="#99ccff" points="3126,-2081.8 3126,-2100.8 3409,-2100.8 3409,-2081.8 3126,-2081.8"/>
+<text text-anchor="start" x="3128.92" y="-2088.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="3168.52" y="-2088.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="3409,-2081.8 3409,-2100.8 3546,-2100.8 3546,-2081.8 3409,-2081.8"/>
+<polygon fill="none" stroke="#99ccff" points="3409,-2081.8 3409,-2100.8 3546,-2100.8 3546,-2081.8 3409,-2081.8"/>
+<text text-anchor="start" x="3441.21" y="-2088.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="3447.8" y="-2088.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">sfdcDigest</text>
+<polygon fill="none" stroke="#99ccff" points="3126,-1912.8 3126,-2081.8 3409,-2081.8 3409,-1912.8 3126,-1912.8"/>
+<text text-anchor="start" x="3129" y="-1994" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="3409,-1912.8 3409,-2081.8 3546,-2081.8 3546,-1912.8 3409,-1912.8"/>
+<polygon fill="lightblue" stroke="transparent" points="3415,-2056.8 3415,-2075.8 3460,-2075.8 3460,-2056.8 3415,-2056.8"/>
+<polygon fill="none" stroke="#99ccff" points="3415,-2056.8 3415,-2075.8 3460,-2075.8 3460,-2056.8 3415,-2056.8"/>
+<text text-anchor="start" x="3417.7" y="-2063.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">object</text>
+<polygon fill="lightblue" stroke="transparent" points="3462,-2056.8 3462,-2075.8 3540,-2075.8 3540,-2056.8 3462,-2056.8"/>
+<polygon fill="none" stroke="#99ccff" points="3462,-2056.8 3462,-2075.8 3540,-2075.8 3540,-2056.8 3462,-2056.8"/>
+<text text-anchor="start" x="3464.71" y="-2063.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Opportunity</text>
+<polygon fill="none" stroke="#99ccff" points="3415,-1918.8 3415,-2054.8 3460,-2054.8 3460,-1918.8 3415,-1918.8"/>
+<text text-anchor="start" x="3417.7" y="-1983.5" font-family="Courier,monospace" font-size="11.00">fields</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1918.8 3462,-2054.8 3540,-2054.8 3540,-1918.8 3462,-1918.8"/>
+<polygon fill="none" stroke="#99ccff" points="3468,-2029.8 3468,-2048.8 3534,-2048.8 3534,-2029.8 3468,-2029.8"/>
+<text text-anchor="start" x="3494.4" y="-2035.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-2008.8 3468,-2027.8 3534,-2027.8 3534,-2008.8 3468,-2008.8"/>
+<text text-anchor="start" x="3487.8" y="-2014.9" font-family="Courier,monospace" font-size="11.00">Name</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-1987.8 3468,-2006.8 3534,-2006.8 3534,-1987.8 3468,-1987.8"/>
+<text text-anchor="start" x="3481.2" y="-1993.9" font-family="Courier,monospace" font-size="11.00">Amount</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-1966.8 3468,-1985.8 3534,-1985.8 3534,-1966.8 3468,-1966.8"/>
+<text text-anchor="start" x="3471.3" y="-1972.9" font-family="Courier,monospace" font-size="11.00">StageName</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-1945.8 3468,-1964.8 3534,-1964.8 3534,-1945.8 3468,-1945.8"/>
+<text text-anchor="start" x="3471.3" y="-1951.9" font-family="Courier,monospace" font-size="11.00">AccountId</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-1924.8 3468,-1943.8 3534,-1943.8 3534,-1924.8 3468,-1924.8"/>
+<text text-anchor="start" x="3477.9" y="-1930.9" font-family="Courier,monospace" font-size="11.00">OwnerId</text>
+<polygon fill="none" stroke="#99ccff" points="3465,-1921.8 3465,-2051.8 3537,-2051.8 3537,-1921.8 3465,-1921.8"/>
+<polygon fill="none" stroke="#99ccff" points="3412,-1915.8 3412,-2078.8 3543,-2078.8 3543,-1915.8 3412,-1915.8"/>
+<polygon fill="none" stroke="#99ccff" points="3125,-1912.3 3125,-2121.3 3547,-2121.3 3547,-1912.3 3125,-1912.3"/>
+</g>
+<!-- Extract_User -->
+<g id="node2" class="node">
+<title>Extract_User</title>
+<polygon fill="#eee5de" stroke="transparent" points="1729.5,-1389.3 1729.5,-1556.3 2156.5,-1556.3 2156.5,-1389.3 1729.5,-1389.3"/>
+<polygon fill="#eee5de" stroke="transparent" points="1731,-1535.8 1731,-1554.8 2156,-1554.8 2156,-1535.8 1731,-1535.8"/>
+<polygon fill="none" stroke="#99ccff" points="1731,-1535.8 1731,-1554.8 2156,-1554.8 2156,-1535.8 1731,-1535.8"/>
+<text text-anchor="start" x="1861.01" y="-1542.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Extract_User - sfdcDigest</text>
+<polygon fill="#e66465" stroke="transparent" points="1731,-1516.8 1731,-1535.8 2014,-1535.8 2014,-1516.8 1731,-1516.8"/>
+<polygon fill="none" stroke="#99ccff" points="1731,-1516.8 1731,-1535.8 2014,-1535.8 2014,-1516.8 1731,-1516.8"/>
+<text text-anchor="start" x="1733.92" y="-1523.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="1773.52" y="-1523.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="2014,-1516.8 2014,-1535.8 2156,-1535.8 2156,-1516.8 2014,-1516.8"/>
+<polygon fill="none" stroke="#99ccff" points="2014,-1516.8 2014,-1535.8 2156,-1535.8 2156,-1516.8 2014,-1516.8"/>
+<text text-anchor="start" x="2048.71" y="-1523.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="2055.3" y="-1523.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">sfdcDigest</text>
+<polygon fill="none" stroke="#99ccff" points="1731,-1389.8 1731,-1516.8 2014,-1516.8 2014,-1389.8 1731,-1389.8"/>
+<text text-anchor="start" x="1734" y="-1450" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="2014,-1389.8 2014,-1516.8 2156,-1516.8 2156,-1389.8 2014,-1389.8"/>
+<polygon fill="lightblue" stroke="transparent" points="2020,-1491.8 2020,-1510.8 2065,-1510.8 2065,-1491.8 2020,-1491.8"/>
+<polygon fill="none" stroke="#99ccff" points="2020,-1491.8 2020,-1510.8 2065,-1510.8 2065,-1491.8 2020,-1491.8"/>
+<text text-anchor="start" x="2022.7" y="-1498.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">object</text>
+<polygon fill="lightblue" stroke="transparent" points="2067,-1491.8 2067,-1510.8 2150,-1510.8 2150,-1491.8 2067,-1491.8"/>
+<polygon fill="none" stroke="#99ccff" points="2067,-1491.8 2067,-1510.8 2150,-1510.8 2150,-1491.8 2067,-1491.8"/>
+<text text-anchor="start" x="2095.3" y="-1498.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">User</text>
+<polygon fill="none" stroke="#99ccff" points="2020,-1395.8 2020,-1489.8 2065,-1489.8 2065,-1395.8 2020,-1395.8"/>
+<text text-anchor="start" x="2022.7" y="-1439.5" font-family="Courier,monospace" font-size="11.00">fields</text>
+<polygon fill="none" stroke="#99ccff" points="2067,-1395.8 2067,-1489.8 2150,-1489.8 2150,-1395.8 2067,-1395.8"/>
+<polygon fill="none" stroke="#99ccff" points="2073,-1464.8 2073,-1483.8 2144,-1483.8 2144,-1464.8 2073,-1464.8"/>
+<text text-anchor="start" x="2101.9" y="-1470.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="2073,-1443.8 2073,-1462.8 2144,-1462.8 2144,-1443.8 2073,-1443.8"/>
+<text text-anchor="start" x="2095.3" y="-1449.9" font-family="Courier,monospace" font-size="11.00">Name</text>
+<polygon fill="none" stroke="#99ccff" points="2073,-1422.8 2073,-1441.8 2144,-1441.8 2144,-1422.8 2073,-1422.8"/>
+<text text-anchor="start" x="2075.51" y="-1428.9" font-family="Courier,monospace" font-size="11.00">Department</text>
+<polygon fill="none" stroke="#99ccff" points="2073,-1401.8 2073,-1420.8 2144,-1420.8 2144,-1401.8 2073,-1401.8"/>
+<text text-anchor="start" x="2075.51" y="-1407.9" font-family="Courier,monospace" font-size="11.00">UserRoleId</text>
+<polygon fill="none" stroke="#99ccff" points="2070,-1398.8 2070,-1486.8 2147,-1486.8 2147,-1398.8 2070,-1398.8"/>
+<polygon fill="none" stroke="#99ccff" points="2017,-1392.8 2017,-1513.8 2153,-1513.8 2153,-1392.8 2017,-1392.8"/>
+<polygon fill="none" stroke="#99ccff" points="1729.5,-1389.3 1729.5,-1556.3 2156.5,-1556.3 2156.5,-1389.3 1729.5,-1389.3"/>
+</g>
+<!-- Extract_UserRole -->
+<g id="node3" class="node">
+<title>Extract_UserRole</title>
+<polygon fill="#eee5de" stroke="transparent" points="360,-378.8 360,-524.8 801,-524.8 801,-378.8 360,-378.8"/>
+<polygon fill="#eee5de" stroke="transparent" points="361.5,-504.8 361.5,-523.8 800.5,-523.8 800.5,-504.8 361.5,-504.8"/>
+<polygon fill="none" stroke="#99ccff" points="361.5,-504.8 361.5,-523.8 800.5,-523.8 800.5,-504.8 361.5,-504.8"/>
+<text text-anchor="start" x="485.32" y="-511.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Extract_UserRole - sfdcDigest</text>
+<polygon fill="#e66465" stroke="transparent" points="361.5,-485.8 361.5,-504.8 644.5,-504.8 644.5,-485.8 361.5,-485.8"/>
+<polygon fill="none" stroke="#99ccff" points="361.5,-485.8 361.5,-504.8 644.5,-504.8 644.5,-485.8 361.5,-485.8"/>
+<text text-anchor="start" x="364.42" y="-492.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="404.02" y="-492.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="644.5,-485.8 644.5,-504.8 800.5,-504.8 800.5,-485.8 644.5,-485.8"/>
+<polygon fill="none" stroke="#99ccff" points="644.5,-485.8 644.5,-504.8 800.5,-504.8 800.5,-485.8 644.5,-485.8"/>
+<text text-anchor="start" x="686.21" y="-492.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="692.8" y="-492.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">sfdcDigest</text>
+<polygon fill="none" stroke="#99ccff" points="361.5,-379.8 361.5,-485.8 644.5,-485.8 644.5,-379.8 361.5,-379.8"/>
+<text text-anchor="start" x="364.5" y="-429.5" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="644.5,-379.8 644.5,-485.8 800.5,-485.8 800.5,-379.8 644.5,-379.8"/>
+<polygon fill="lightblue" stroke="transparent" points="650.5,-460.8 650.5,-479.8 695.5,-479.8 695.5,-460.8 650.5,-460.8"/>
+<polygon fill="none" stroke="#99ccff" points="650.5,-460.8 650.5,-479.8 695.5,-479.8 695.5,-460.8 650.5,-460.8"/>
+<text text-anchor="start" x="653.2" y="-467.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">object</text>
+<polygon fill="lightblue" stroke="transparent" points="697.5,-460.8 697.5,-479.8 794.5,-479.8 794.5,-460.8 697.5,-460.8"/>
+<polygon fill="none" stroke="#99ccff" points="697.5,-460.8 697.5,-479.8 794.5,-479.8 794.5,-460.8 697.5,-460.8"/>
+<text text-anchor="start" x="719.6" y="-467.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">UserRole</text>
+<polygon fill="none" stroke="#99ccff" points="650.5,-385.8 650.5,-458.8 695.5,-458.8 695.5,-385.8 650.5,-385.8"/>
+<text text-anchor="start" x="653.2" y="-419" font-family="Courier,monospace" font-size="11.00">fields</text>
+<polygon fill="none" stroke="#99ccff" points="697.5,-385.8 697.5,-458.8 794.5,-458.8 794.5,-385.8 697.5,-385.8"/>
+<polygon fill="none" stroke="#99ccff" points="703.5,-433.8 703.5,-452.8 788.5,-452.8 788.5,-433.8 703.5,-433.8"/>
+<text text-anchor="start" x="739.4" y="-439.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="703.5,-412.8 703.5,-431.8 788.5,-431.8 788.5,-412.8 703.5,-412.8"/>
+<text text-anchor="start" x="732.8" y="-418.9" font-family="Courier,monospace" font-size="11.00">Name</text>
+<polygon fill="none" stroke="#99ccff" points="703.5,-391.8 703.5,-410.8 788.5,-410.8 788.5,-391.8 703.5,-391.8"/>
+<text text-anchor="start" x="706.41" y="-397.9" font-family="Courier,monospace" font-size="11.00">ParentRoleId</text>
+<polygon fill="none" stroke="#99ccff" points="700.5,-388.8 700.5,-455.8 791.5,-455.8 791.5,-388.8 700.5,-388.8"/>
+<polygon fill="none" stroke="#99ccff" points="647.5,-382.8 647.5,-482.8 797.5,-482.8 797.5,-382.8 647.5,-382.8"/>
+<polygon fill="none" stroke="#99ccff" points="360,-378.8 360,-524.8 801,-524.8 801,-378.8 360,-378.8"/>
+</g>
+<!-- Flatten_UserRole -->
+<g id="node4" class="node">
+<title>Flatten_UserRole</title>
+<polygon fill="#eee5de" stroke="transparent" points="1554,-479.8 1554,-655.8 2332,-655.8 2332,-479.8 1554,-479.8"/>
+<polygon fill="#eee5de" stroke="transparent" points="1555,-635.8 1555,-654.8 2331,-654.8 2331,-635.8 1555,-635.8"/>
+<polygon fill="none" stroke="#99ccff" points="1555,-635.8 1555,-654.8 2331,-654.8 2331,-635.8 1555,-635.8"/>
+<text text-anchor="start" x="1857.21" y="-642.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Flatten_UserRole - flatten</text>
+<polygon fill="#e66465" stroke="transparent" points="1555,-616.8 1555,-635.8 1838,-635.8 1838,-616.8 1555,-616.8"/>
+<polygon fill="none" stroke="#99ccff" points="1555,-616.8 1555,-635.8 1838,-635.8 1838,-616.8 1555,-616.8"/>
+<text text-anchor="start" x="1557.92" y="-623.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="1597.52" y="-623.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="1838,-616.8 1838,-635.8 2331,-635.8 2331,-616.8 1838,-616.8"/>
+<polygon fill="none" stroke="#99ccff" points="1838,-616.8 1838,-635.8 2331,-635.8 2331,-616.8 1838,-616.8"/>
+<text text-anchor="start" x="2058.1" y="-623.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="2064.7" y="-623.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">flatten</text>
+<polygon fill="none" stroke="#99ccff" points="1555,-480.8 1555,-616.8 1838,-616.8 1838,-480.8 1555,-480.8"/>
+<text text-anchor="start" x="1558" y="-545.5" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="1838,-480.8 1838,-616.8 2331,-616.8 2331,-480.8 1838,-480.8"/>
+<polygon fill="lightblue" stroke="transparent" points="1844,-591.8 1844,-610.8 1948,-610.8 1948,-591.8 1844,-591.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-591.8 1844,-610.8 1948,-610.8 1948,-591.8 1844,-591.8"/>
+<text text-anchor="start" x="1846.51" y="-598.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">include_self_id</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-591.8 1950,-610.8 2325,-610.8 2325,-591.8 1950,-591.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-591.8 1950,-610.8 2325,-610.8 2325,-591.8 1950,-591.8"/>
+<text text-anchor="start" x="2121" y="-598.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">false</text>
+<polygon fill="lightblue" stroke="transparent" points="1844,-570.8 1844,-589.8 1948,-589.8 1948,-570.8 1844,-570.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-570.8 1844,-589.8 1948,-589.8 1948,-570.8 1844,-570.8"/>
+<text text-anchor="start" x="1863.01" y="-577.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">self_field</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-570.8 1950,-589.8 2325,-589.8 2325,-570.8 1950,-570.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-570.8 1950,-589.8 2325,-589.8 2325,-570.8 1950,-570.8"/>
+<text text-anchor="start" x="2130.9" y="-577.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Id</text>
+<polygon fill="lightblue" stroke="transparent" points="1844,-549.8 1844,-568.8 1948,-568.8 1948,-549.8 1844,-549.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-549.8 1844,-568.8 1948,-568.8 1948,-549.8 1844,-549.8"/>
+<text text-anchor="start" x="1859.71" y="-556.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">multi_field</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-549.8 1950,-568.8 2325,-568.8 2325,-549.8 1950,-549.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-549.8 1950,-568.8 2325,-568.8 2325,-549.8 1950,-549.8"/>
+<text text-anchor="start" x="2121" y="-556.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Roles</text>
+<polygon fill="lightblue" stroke="transparent" points="1844,-528.8 1844,-547.8 1948,-547.8 1948,-528.8 1844,-528.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-528.8 1844,-547.8 1948,-547.8 1948,-528.8 1844,-528.8"/>
+<text text-anchor="start" x="1856.41" y="-535.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">parent_field</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-528.8 1950,-547.8 2325,-547.8 2325,-528.8 1950,-528.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-528.8 1950,-547.8 2325,-547.8 2325,-528.8 1950,-528.8"/>
+<text text-anchor="start" x="2097.91" y="-535.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">ParentRoleId</text>
+<polygon fill="lightblue" stroke="transparent" points="1844,-507.8 1844,-526.8 1948,-526.8 1948,-507.8 1844,-507.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-507.8 1844,-526.8 1948,-526.8 1948,-507.8 1844,-507.8"/>
+<text text-anchor="start" x="1863.01" y="-514.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">path_field</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-507.8 1950,-526.8 2325,-526.8 2325,-507.8 1950,-507.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-507.8 1950,-526.8 2325,-526.8 2325,-507.8 1950,-507.8"/>
+<text text-anchor="start" x="2111.1" y="-514.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">RolePath</text>
+<polygon fill="lightblue" stroke="transparent" points="1844,-486.8 1844,-505.8 1948,-505.8 1948,-486.8 1844,-486.8"/>
+<polygon fill="none" stroke="#99ccff" points="1844,-486.8 1844,-505.8 1948,-505.8 1948,-486.8 1844,-486.8"/>
+<text text-anchor="start" x="1876.2" y="-493.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">source</text>
+<polygon fill="lightblue" stroke="transparent" points="1950,-486.8 1950,-505.8 2325,-505.8 2325,-486.8 1950,-486.8"/>
+<polygon fill="none" stroke="#99ccff" points="1950,-486.8 1950,-505.8 2325,-505.8 2325,-486.8 1950,-486.8"/>
+<text text-anchor="start" x="1952.73" y="-493.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">                                        Extract_UserRole</text>
+<polygon fill="none" stroke="#99ccff" points="1841,-483.8 1841,-613.8 2328,-613.8 2328,-483.8 1841,-483.8"/>
+<polygon fill="none" stroke="#99ccff" points="1554,-479.8 1554,-655.8 2332,-655.8 2332,-479.8 1554,-479.8"/>
+</g>
+<!-- Flatten_UserRole&#45;&gt;Extract_UserRole -->
+<g id="edge1" class="edge">
+<title>Flatten_UserRole:w-&gt;Extract_UserRole:e</title>
+<path fill="none" stroke="#ff99cc" d="M1940.97,-495.8C1368.31,-495.8 1222.15,-495.8 645.5,-495.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="1941,-498.6 1949,-495.8 1941,-493 1941,-498.6"/>
+</g>
+<!-- Augment_User_FlattenUserRole -->
+<g id="node5" class="node">
+<title>Augment_User_FlattenUserRole</title>
+<polygon fill="#eee5de" stroke="transparent" points="3085,-882.8 3085,-1178.8 3587,-1178.8 3587,-882.8 3085,-882.8"/>
+<polygon fill="#eee5de" stroke="transparent" points="3086,-1158.8 3086,-1177.8 3586,-1177.8 3586,-1158.8 3086,-1158.8"/>
+<polygon fill="none" stroke="#99ccff" points="3086,-1158.8 3086,-1177.8 3586,-1177.8 3586,-1158.8 3086,-1158.8"/>
+<text text-anchor="start" x="3210.62" y="-1165.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Augment_User_FlattenUserRole - augment</text>
+<polygon fill="#e66465" stroke="transparent" points="3086,-1139.8 3086,-1158.8 3369,-1158.8 3369,-1139.8 3086,-1139.8"/>
+<polygon fill="none" stroke="#99ccff" points="3086,-1139.8 3086,-1158.8 3369,-1158.8 3369,-1139.8 3086,-1139.8"/>
+<text text-anchor="start" x="3088.92" y="-1146.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="3128.52" y="-1146.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="3369,-1139.8 3369,-1158.8 3586,-1158.8 3586,-1139.8 3369,-1139.8"/>
+<polygon fill="none" stroke="#99ccff" points="3369,-1139.8 3369,-1158.8 3586,-1158.8 3586,-1139.8 3369,-1139.8"/>
+<text text-anchor="start" x="3451.1" y="-1146.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="3457.7" y="-1146.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">augment</text>
+<polygon fill="none" stroke="#99ccff" points="3086,-883.8 3086,-1139.8 3369,-1139.8 3369,-883.8 3086,-883.8"/>
+<text text-anchor="start" x="3089" y="-1008.5" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="3369,-883.8 3369,-1139.8 3586,-1139.8 3586,-883.8 3369,-883.8"/>
+<polygon fill="none" stroke="#99ccff" points="3375,-1114.8 3375,-1133.8 3460,-1133.8 3460,-1114.8 3375,-1114.8"/>
+<text text-anchor="start" x="3377.91" y="-1121.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">relationship</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1114.8 3462,-1133.8 3580,-1133.8 3580,-1114.8 3462,-1114.8"/>
+<text text-anchor="start" x="3507.8" y="-1121.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Role</text>
+<polygon fill="none" stroke="#99ccff" points="3375,-1093.8 3375,-1112.8 3460,-1112.8 3460,-1093.8 3375,-1093.8"/>
+<text text-anchor="start" x="3404.3" y="-1099.9" font-family="Courier,monospace" font-size="11.00">left</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1093.8 3462,-1112.8 3580,-1112.8 3580,-1093.8 3462,-1093.8"/>
+<text text-anchor="start" x="3478.11" y="-1099.9" font-family="Courier,monospace" font-size="11.00"> Extract_User</text>
+<polygon fill="none" stroke="#99ccff" points="3375,-1060.8 3375,-1091.8 3460,-1091.8 3460,-1060.8 3375,-1060.8"/>
+<text text-anchor="start" x="3391.1" y="-1073" font-family="Courier,monospace" font-size="11.00">left_key</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1060.8 3462,-1091.8 3580,-1091.8 3580,-1060.8 3462,-1060.8"/>
+<polygon fill="none" stroke="#99ccff" points="3468,-1066.8 3468,-1085.8 3574,-1085.8 3574,-1066.8 3468,-1066.8"/>
+<text text-anchor="start" x="3488.01" y="-1072.9" font-family="Courier,monospace" font-size="11.00">UserRoleId</text>
+<polygon fill="none" stroke="#99ccff" points="3465,-1063.8 3465,-1088.8 3577,-1088.8 3577,-1063.8 3465,-1063.8"/>
+<polygon fill="none" stroke="#99ccff" points="3375,-1039.8 3375,-1058.8 3460,-1058.8 3460,-1039.8 3375,-1039.8"/>
+<text text-anchor="start" x="3401" y="-1045.9" font-family="Courier,monospace" font-size="11.00">right</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1039.8 3462,-1058.8 3580,-1058.8 3580,-1039.8 3462,-1039.8"/>
+<text text-anchor="start" x="3464.91" y="-1045.9" font-family="Courier,monospace" font-size="11.00"> Flatten_UserRole</text>
+<polygon fill="none" stroke="#99ccff" points="3375,-1006.8 3375,-1037.8 3460,-1037.8 3460,-1006.8 3375,-1006.8"/>
+<text text-anchor="start" x="3387.8" y="-1019" font-family="Courier,monospace" font-size="11.00">right_key</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-1006.8 3462,-1037.8 3580,-1037.8 3580,-1006.8 3462,-1006.8"/>
+<polygon fill="none" stroke="#99ccff" points="3468,-1012.8 3468,-1031.8 3574,-1031.8 3574,-1012.8 3468,-1012.8"/>
+<text text-anchor="start" x="3514.4" y="-1018.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="3465,-1009.8 3465,-1034.8 3577,-1034.8 3577,-1009.8 3465,-1009.8"/>
+<polygon fill="none" stroke="#99ccff" points="3375,-910.8 3375,-1004.8 3460,-1004.8 3460,-910.8 3375,-910.8"/>
+<text text-anchor="start" x="3377.91" y="-954.5" font-family="Courier,monospace" font-size="11.00">right_select</text>
+<polygon fill="none" stroke="#99ccff" points="3462,-910.8 3462,-1004.8 3580,-1004.8 3580,-910.8 3462,-910.8"/>
+<polygon fill="none" stroke="#99ccff" points="3468,-979.8 3468,-998.8 3574,-998.8 3574,-979.8 3468,-979.8"/>
+<text text-anchor="start" x="3514.4" y="-985.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-958.8 3468,-977.8 3574,-977.8 3574,-958.8 3468,-958.8"/>
+<text text-anchor="start" x="3507.8" y="-964.9" font-family="Courier,monospace" font-size="11.00">Name</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-937.8 3468,-956.8 3574,-956.8 3574,-937.8 3468,-937.8"/>
+<text text-anchor="start" x="3504.5" y="-943.9" font-family="Courier,monospace" font-size="11.00">Roles</text>
+<polygon fill="none" stroke="#99ccff" points="3468,-916.8 3468,-935.8 3574,-935.8 3574,-916.8 3468,-916.8"/>
+<text text-anchor="start" x="3494.6" y="-922.9" font-family="Courier,monospace" font-size="11.00">RolePath</text>
+<polygon fill="none" stroke="#99ccff" points="3465,-913.8 3465,-1001.8 3577,-1001.8 3577,-913.8 3465,-913.8"/>
+<polygon fill="none" stroke="#99ccff" points="3375,-889.8 3375,-908.8 3460,-908.8 3460,-889.8 3375,-889.8"/>
+<text text-anchor="start" x="3414.2" y="-895.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<polygon fill="none" stroke="#99ccff" points="3462,-889.8 3462,-908.8 3580,-908.8 3580,-889.8 3462,-889.8"/>
+<text text-anchor="start" x="3514.4" y="-895.9" font-family="Courier,monospace" font-size="11.00">  </text>
+<polygon fill="none" stroke="#99ccff" points="3372,-886.8 3372,-1136.8 3583,-1136.8 3583,-886.8 3372,-886.8"/>
+<polygon fill="none" stroke="#99ccff" points="3085,-882.8 3085,-1178.8 3587,-1178.8 3587,-882.8 3085,-882.8"/>
+</g>
+<!-- Augment_User_FlattenUserRole&#45;&gt;Extract_User -->
+<g id="edge2" class="edge">
+<title>Augment_User_FlattenUserRole:w-&gt;Extract_User:e</title>
+<path fill="none" stroke="#ff99cc" d="M3452.69,-1103.82C2790.5,-1107.3 2681.82,-1526.8 2015,-1526.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="3453.01,-1106.62 3461,-1103.8 3452.99,-1101.02 3453.01,-1106.62"/>
+</g>
+<!-- Augment_User_FlattenUserRole&#45;&gt;Flatten_UserRole -->
+<g id="edge3" class="edge">
+<title>Augment_User_FlattenUserRole:w-&gt;Flatten_UserRole:e</title>
+<path fill="none" stroke="#ff99cc" d="M3452.84,-1049.78C2715.03,-1046.71 2581.27,-626.8 1839,-626.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="3452.99,-1052.58 3461,-1049.8 3453.01,-1046.98 3452.99,-1052.58"/>
+</g>
+<!-- Augment_Opportunity_UserWithRoles -->
+<g id="node6" class="node">
+<title>Augment_Opportunity_UserWithRoles</title>
+<polygon fill="#eee5de" stroke="transparent" points="4340,-1384.8 4340,-1722.8 4921,-1722.8 4921,-1384.8 4340,-1384.8"/>
+<polygon fill="#eee5de" stroke="transparent" points="4341.5,-1702.8 4341.5,-1721.8 4920.5,-1721.8 4920.5,-1702.8 4341.5,-1702.8"/>
+<polygon fill="none" stroke="#99ccff" points="4341.5,-1702.8 4341.5,-1721.8 4920.5,-1721.8 4920.5,-1702.8 4341.5,-1702.8"/>
+<text text-anchor="start" x="4489.12" y="-1709.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Augment_Opportunity_UserWithRoles - augment</text>
+<polygon fill="#e66465" stroke="transparent" points="4341.5,-1683.8 4341.5,-1702.8 4624.5,-1702.8 4624.5,-1683.8 4341.5,-1683.8"/>
+<polygon fill="none" stroke="#99ccff" points="4341.5,-1683.8 4341.5,-1702.8 4624.5,-1702.8 4624.5,-1683.8 4341.5,-1683.8"/>
+<text text-anchor="start" x="4344.42" y="-1690.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="4384.02" y="-1690.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#e66465" stroke="transparent" points="4624.5,-1683.8 4624.5,-1702.8 4920.5,-1702.8 4920.5,-1683.8 4624.5,-1683.8"/>
+<polygon fill="none" stroke="#99ccff" points="4624.5,-1683.8 4624.5,-1702.8 4920.5,-1702.8 4920.5,-1683.8 4624.5,-1683.8"/>
+<text text-anchor="start" x="4746.1" y="-1690.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="4752.7" y="-1690.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">augment</text>
+<polygon fill="none" stroke="#99ccff" points="4341.5,-1385.8 4341.5,-1683.8 4624.5,-1683.8 4624.5,-1385.8 4341.5,-1385.8"/>
+<text text-anchor="start" x="4344.5" y="-1531.5" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="4624.5,-1385.8 4624.5,-1683.8 4920.5,-1683.8 4920.5,-1385.8 4624.5,-1385.8"/>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1658.8 4630.5,-1677.8 4715.5,-1677.8 4715.5,-1658.8 4630.5,-1658.8"/>
+<text text-anchor="start" x="4633.41" y="-1665.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">relationship</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1658.8 4717.5,-1677.8 4914.5,-1677.8 4914.5,-1658.8 4717.5,-1658.8"/>
+<text text-anchor="start" x="4799.5" y="-1665.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Owner</text>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1637.8 4630.5,-1656.8 4715.5,-1656.8 4715.5,-1637.8 4630.5,-1637.8"/>
+<text text-anchor="start" x="4659.8" y="-1643.9" font-family="Courier,monospace" font-size="11.00">left</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1637.8 4717.5,-1656.8 4914.5,-1656.8 4914.5,-1637.8 4717.5,-1637.8"/>
+<text text-anchor="start" x="4750.01" y="-1643.9" font-family="Courier,monospace" font-size="11.00"> Extract_Opportunity</text>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1604.8 4630.5,-1635.8 4715.5,-1635.8 4715.5,-1604.8 4630.5,-1604.8"/>
+<text text-anchor="start" x="4646.6" y="-1617" font-family="Courier,monospace" font-size="11.00">left_key</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1604.8 4717.5,-1635.8 4914.5,-1635.8 4914.5,-1604.8 4717.5,-1604.8"/>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1610.8 4723.5,-1629.8 4908.5,-1629.8 4908.5,-1610.8 4723.5,-1610.8"/>
+<text text-anchor="start" x="4792.9" y="-1616.9" font-family="Courier,monospace" font-size="11.00">OwnerId</text>
+<polygon fill="none" stroke="#99ccff" points="4720.5,-1607.8 4720.5,-1632.8 4911.5,-1632.8 4911.5,-1607.8 4720.5,-1607.8"/>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1583.8 4630.5,-1602.8 4715.5,-1602.8 4715.5,-1583.8 4630.5,-1583.8"/>
+<text text-anchor="start" x="4656.5" y="-1589.9" font-family="Courier,monospace" font-size="11.00">right</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1583.8 4717.5,-1602.8 4914.5,-1602.8 4914.5,-1583.8 4717.5,-1583.8"/>
+<text text-anchor="start" x="4720.32" y="-1589.9" font-family="Courier,monospace" font-size="11.00"> Augment_User_FlattenUserRole</text>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1550.8 4630.5,-1581.8 4715.5,-1581.8 4715.5,-1550.8 4630.5,-1550.8"/>
+<text text-anchor="start" x="4643.3" y="-1563" font-family="Courier,monospace" font-size="11.00">right_key</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1550.8 4717.5,-1581.8 4914.5,-1581.8 4914.5,-1550.8 4717.5,-1550.8"/>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1556.8 4723.5,-1575.8 4908.5,-1575.8 4908.5,-1556.8 4723.5,-1556.8"/>
+<text text-anchor="start" x="4809.4" y="-1562.9" font-family="Courier,monospace" font-size="11.00">Id</text>
+<polygon fill="none" stroke="#99ccff" points="4720.5,-1553.8 4720.5,-1578.8 4911.5,-1578.8 4911.5,-1553.8 4720.5,-1553.8"/>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1412.8 4630.5,-1548.8 4715.5,-1548.8 4715.5,-1412.8 4630.5,-1412.8"/>
+<text text-anchor="start" x="4633.41" y="-1477.5" font-family="Courier,monospace" font-size="11.00">right_select</text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1412.8 4717.5,-1548.8 4914.5,-1548.8 4914.5,-1412.8 4717.5,-1412.8"/>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1523.8 4723.5,-1542.8 4908.5,-1542.8 4908.5,-1523.8 4723.5,-1523.8"/>
+<text text-anchor="start" x="4802.8" y="-1529.9" font-family="Courier,monospace" font-size="11.00">Name</text>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1502.8 4723.5,-1521.8 4908.5,-1521.8 4908.5,-1502.8 4723.5,-1502.8"/>
+<text text-anchor="start" x="4783.01" y="-1508.9" font-family="Courier,monospace" font-size="11.00">Department</text>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1481.8 4723.5,-1500.8 4908.5,-1500.8 4908.5,-1481.8 4723.5,-1481.8"/>
+<text text-anchor="start" x="4792.9" y="-1487.9" font-family="Courier,monospace" font-size="11.00">Role.Id</text>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1460.8 4723.5,-1479.8 4908.5,-1479.8 4908.5,-1460.8 4723.5,-1460.8"/>
+<text text-anchor="start" x="4786.3" y="-1466.9" font-family="Courier,monospace" font-size="11.00">Role.Name</text>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1439.8 4723.5,-1458.8 4908.5,-1458.8 4908.5,-1439.8 4723.5,-1439.8"/>
+<text text-anchor="start" x="4783.01" y="-1445.9" font-family="Courier,monospace" font-size="11.00">Role.Roles</text>
+<polygon fill="none" stroke="#99ccff" points="4723.5,-1418.8 4723.5,-1437.8 4908.5,-1437.8 4908.5,-1418.8 4723.5,-1418.8"/>
+<text text-anchor="start" x="4773.11" y="-1424.9" font-family="Courier,monospace" font-size="11.00">Role.RolePath</text>
+<polygon fill="none" stroke="#99ccff" points="4720.5,-1415.8 4720.5,-1545.8 4911.5,-1545.8 4911.5,-1415.8 4720.5,-1415.8"/>
+<polygon fill="none" stroke="#99ccff" points="4630.5,-1391.8 4630.5,-1410.8 4715.5,-1410.8 4715.5,-1391.8 4630.5,-1391.8"/>
+<text text-anchor="start" x="4669.7" y="-1397.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<polygon fill="none" stroke="#99ccff" points="4717.5,-1391.8 4717.5,-1410.8 4914.5,-1410.8 4914.5,-1391.8 4717.5,-1391.8"/>
+<text text-anchor="start" x="4809.4" y="-1397.9" font-family="Courier,monospace" font-size="11.00">  </text>
+<polygon fill="none" stroke="#99ccff" points="4627.5,-1388.8 4627.5,-1680.8 4917.5,-1680.8 4917.5,-1388.8 4627.5,-1388.8"/>
+<polygon fill="none" stroke="#99ccff" points="4340,-1384.8 4340,-1722.8 4921,-1722.8 4921,-1384.8 4340,-1384.8"/>
+</g>
+<!-- Augment_Opportunity_UserWithRoles&#45;&gt;Extract_Opportunity -->
+<g id="edge4" class="edge">
+<title>Augment_Opportunity_UserWithRoles:w-&gt;Extract_Opportunity:e</title>
+<path fill="none" stroke="#ff99cc" d="M4708.45,-1647.83C4102.51,-1651.69 4020.59,-2091.8 3410,-2091.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="4708.51,-1650.63 4716.5,-1647.8 4708.49,-1645.03 4708.51,-1650.63"/>
+</g>
+<!-- Augment_Opportunity_UserWithRoles&#45;&gt;Augment_User_FlattenUserRole -->
+<g id="edge5" class="edge">
+<title>Augment_Opportunity_UserWithRoles:w-&gt;Augment_User_FlattenUserRole:e</title>
+<path fill="none" stroke="#ff99cc" d="M4708.22,-1593.77C4085.59,-1589.91 3997.37,-1149.8 3370,-1149.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="4708.49,-1596.58 4716.5,-1593.8 4708.51,-1590.98 4708.49,-1596.58"/>
+</g>
+<!-- Register_OpportunityWithRoles_Dataset -->
+<g id="node7" class="node">
+<title>Register_OpportunityWithRoles_Dataset</title>
+<polygon fill="#eee5de" stroke="transparent" points="5674,-1678.3 5674,-1791.3 6294,-1791.3 6294,-1678.3 5674,-1678.3"/>
+<polygon fill="#eee5de" stroke="transparent" points="5675,-1770.8 5675,-1789.8 6293,-1789.8 6293,-1770.8 5675,-1770.8"/>
+<polygon fill="none" stroke="#99ccff" points="5675,-1770.8 5675,-1789.8 6293,-1789.8 6293,-1770.8 5675,-1770.8"/>
+<text text-anchor="start" x="5812.43" y="-1777.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">Register_OpportunityWithRoles_Dataset - sfdcRegister</text>
+<polygon fill="#ff99cc" stroke="transparent" points="5675,-1751.8 5675,-1770.8 5958,-1770.8 5958,-1751.8 5675,-1751.8"/>
+<polygon fill="none" stroke="#99ccff" points="5675,-1751.8 5675,-1770.8 5958,-1770.8 5958,-1751.8 5675,-1751.8"/>
+<text text-anchor="start" x="5677.92" y="-1758.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">action</text>
+<text text-anchor="start" x="5717.52" y="-1758.9" font-family="Courier,monospace" font-size="11.00">                                    </text>
+<polygon fill="#ff99cc" stroke="transparent" points="5958,-1751.8 5958,-1770.8 6293,-1770.8 6293,-1751.8 5958,-1751.8"/>
+<polygon fill="none" stroke="#99ccff" points="5958,-1751.8 5958,-1770.8 6293,-1770.8 6293,-1751.8 5958,-1751.8"/>
+<text text-anchor="start" x="6082.61" y="-1758.9" font-family="Courier,monospace" font-size="11.00"> </text>
+<text text-anchor="start" x="6089.21" y="-1758.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">sfdcRegister</text>
+<polygon fill="none" stroke="#99ccff" points="5675,-1678.8 5675,-1751.8 5958,-1751.8 5958,-1678.8 5675,-1678.8"/>
+<text text-anchor="start" x="5678" y="-1712" font-family="Courier,monospace" font-size="11.00">parameters</text>
+<polygon fill="none" stroke="#99ccff" points="5958,-1678.8 5958,-1751.8 6293,-1751.8 6293,-1678.8 5958,-1678.8"/>
+<polygon fill="lightblue" stroke="transparent" points="5964,-1726.8 5964,-1745.8 6009,-1745.8 6009,-1726.8 5964,-1726.8"/>
+<polygon fill="none" stroke="#99ccff" points="5964,-1726.8 5964,-1745.8 6009,-1745.8 6009,-1726.8 5964,-1726.8"/>
+<text text-anchor="start" x="5973.3" y="-1733.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">name</text>
+<polygon fill="lightblue" stroke="transparent" points="6011,-1726.8 6011,-1745.8 6287,-1745.8 6287,-1726.8 6011,-1726.8"/>
+<polygon fill="none" stroke="#99ccff" points="6011,-1726.8 6011,-1745.8 6287,-1745.8 6287,-1726.8 6011,-1726.8"/>
+<text text-anchor="start" x="6122.6" y="-1733.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">OppRoles</text>
+<polygon fill="lightblue" stroke="transparent" points="5964,-1705.8 5964,-1724.8 6009,-1724.8 6009,-1705.8 5964,-1705.8"/>
+<polygon fill="none" stroke="#99ccff" points="5964,-1705.8 5964,-1724.8 6009,-1724.8 6009,-1705.8 5964,-1705.8"/>
+<text text-anchor="start" x="5970" y="-1712.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">alias</text>
+<polygon fill="lightblue" stroke="transparent" points="6011,-1705.8 6011,-1724.8 6287,-1724.8 6287,-1705.8 6011,-1705.8"/>
+<polygon fill="none" stroke="#99ccff" points="6011,-1705.8 6011,-1724.8 6287,-1724.8 6287,-1705.8 6011,-1705.8"/>
+<text text-anchor="start" x="6122.6" y="-1712.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">OppRoles</text>
+<polygon fill="lightblue" stroke="transparent" points="5964,-1684.8 5964,-1703.8 6009,-1703.8 6009,-1684.8 5964,-1684.8"/>
+<polygon fill="none" stroke="#99ccff" points="5964,-1684.8 5964,-1703.8 6009,-1703.8 6009,-1684.8 5964,-1684.8"/>
+<text text-anchor="start" x="5966.7" y="-1691.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">source</text>
+<polygon fill="lightblue" stroke="transparent" points="6011,-1684.8 6011,-1703.8 6287,-1703.8 6287,-1684.8 6011,-1684.8"/>
+<polygon fill="none" stroke="#99ccff" points="6011,-1684.8 6011,-1703.8 6287,-1703.8 6287,-1684.8 6011,-1684.8"/>
+<text text-anchor="start" x="6013.72" y="-1691.9" font-family="Courier,monospace" font-weight="bold" font-size="11.00">        Augment_Opportunity_UserWithRoles</text>
+<polygon fill="none" stroke="#99ccff" points="5961,-1681.8 5961,-1748.8 6290,-1748.8 6290,-1681.8 5961,-1681.8"/>
+<polygon fill="none" stroke="#99ccff" points="5674,-1678.3 5674,-1791.3 6294,-1791.3 6294,-1678.3 5674,-1678.3"/>
+</g>
+<!-- Register_OpportunityWithRoles_Dataset&#45;&gt;Augment_Opportunity_UserWithRoles -->
+<g id="edge6" class="edge">
+<title>Register_OpportunityWithRoles_Dataset:w-&gt;Augment_Opportunity_UserWithRoles:e</title>
+<path fill="none" stroke="#ff99cc" d="M6001.91,-1693.8C5393.31,-1693.8 5238.13,-1693.8 4625.5,-1693.8"/>
+<polygon fill="#ff99cc" stroke="#ff99cc" points="6002,-1696.6 6010,-1693.8 6002,-1691 6002,-1696.6"/>
+</g>
+</g>
+</svg>
