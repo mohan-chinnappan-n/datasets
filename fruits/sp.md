@@ -108,6 +108,14 @@ q = limit q 100;
 ```
 
 
+## Sample Dataflow using Flatten and Security Predicate
+
+- [Dataflow](./sp1_df.json)
+
+- ![Dataflow Viz](./sp1_df.json.svg)
+
+
+
 ## References
 - [Add Row-Level Security with a Security Predicate](https://help.salesforce.com/s/articleView?id=sf.bi_security_datasets_predicate_considerations.htm&type=5)
 
