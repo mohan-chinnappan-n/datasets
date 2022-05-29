@@ -99,3 +99,6 @@ open https://mohansun-ea-02-dev-ed.my.salesforce.com/analytics/dataManager in a 
 ```
 
 - ![Health Grade Load](img/heath-grade-load.png)
+
+## Demo showing the JOINs in Recipe
+![Demo JOINs Recipe](img/recipe-Joins-1.webm.gif)
