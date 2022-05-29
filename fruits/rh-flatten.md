@@ -27,6 +27,7 @@ FROM UserRole
 sfdx mohanc:data:query -q ~/.soql/userRole.sql  -u  mohan.chinnappan.n_ea2@gmail.com 
 ```
 
+
 ```csv
 "attributes","Id","Name","ParentRoleId"
 "{""type"":""UserRole"",""url"":""/services/data/v54.0/sobjects/UserRole/00E3h000001JaqUEAS""}","00E3h000001JaqUEAS","CEO",
@@ -35,7 +36,9 @@ sfdx mohanc:data:query -q ~/.soql/userRole.sql  -u  mohan.chinnappan.n_ea2@gmail
 "{""type"":""UserRole"",""url"":""/services/data/v54.0/sobjects/UserRole/00E3h000001JaqTEAS""}","00E3h000001JaqTEAS","Sales EMEA","00E3h000001JaqREAS"
 "{""type"":""UserRole"",""url"":""/services/data/v54.0/sobjects/UserRole/00E3h000001JaqREAS""}","00E3h000001JaqREAS","Sales WW","00E3h000001JaqUEAS"
 ```
+- [CSV](./rh.csv)
 
+### JSON
 ```
 sfdx mohanc:data:query -q ~/.soql/userRole.sql  -u  mohan.chinnappan.n_ea2@gmail.com -f json
 ```
