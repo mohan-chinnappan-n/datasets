@@ -10,6 +10,8 @@
 
 - [See UserRole flatten transformation](./rh-flatten.md)
 
+## Like to see JOINs in SQL, Recipes?
+- [See about JOINs](../joins/joins.md)
 
 ```
 cat yield2.csv 
