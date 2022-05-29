@@ -25,7 +25,7 @@ Successfully authorized mohan.chinnappan.n_ea2@gmail.com with org ID 00D3h000007
 
 ### Load csv into dataset - yield
 ```
-mchinnappan@mchinnappan-ltm fruits % sfdx mohanc:ea:dataset:load -u mohan.chinnappan.n_ea2@gmail.com -d yield2.csv 
+sfdx mohanc:ea:dataset:load -u mohan.chinnappan.n_ea2@gmail.com -d yield2.csv 
 ```
 
 ```
