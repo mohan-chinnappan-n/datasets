@@ -1,8 +1,8 @@
 # Security Predicate Simple Example
 
 ## Use case
-- Assume we like to create an external data based dataset  ```yield2``` created out of this csv file:
-- Restrict the logged in user can see only records with ```user_name``` as logger user name ```User.Name```
+- Assume we like to create an external data based dataset  ```yield2``` created out of this csv file: yield2.csv
+- Restrict the logged in user can see only records with ```user_name``` as logged user name ```User.Name```
 - Use Security Predicate to implement this
 
 
@@ -93,4 +93,9 @@ open https://mohansun-ea-02-dev-ed.my.salesforce.com/analytics/dataManager in a 
 
 - ![Demo](img/security-predicate-example-1.webm.gif)
 
-
+- Sample SAQL user in this example
+```
+q = load "yield2";
+q = foreach q generate 'friut' as 'fruit', 'qty' as 'qty', 'user_name' as 'user_name', "!{User.Name}" as UserName, "!{User.Id}" as UserId, 100*(qty/1000) as Share;
+q = limit q 100;
+```
