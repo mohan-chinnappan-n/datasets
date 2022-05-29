@@ -23,7 +23,7 @@ sfdx force:auth:web:login
 Successfully authorized mohan.chinnappan.n_ea2@gmail.com with org ID 00D3h000007R1LuEAK
 ```
 
-### Load csv into dataset - yield
+### Load csv into dataset - yield2
 ```
 sfdx mohanc:ea:dataset:load -u mohan.chinnappan.n_ea2@gmail.com -d yield2.csv 
 ```
